@@ -1,0 +1,150 @@
+/* =========================
+   RESET
+========================= */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* =========================
+   BASE
+========================= */
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  background-color: #f4f6f8;
+  color: #222;
+  line-height: 1.6;
+}
+
+/* =========================
+   HEADER
+========================= */
+header {
+  background-color: #111827;
+  color: #ffffff;
+  padding: 30px 15px;
+  text-align: center;
+}
+
+header h1 {
+  font-size: 28px;
+  margin-bottom: 6px;
+}
+
+header p {
+  font-size: 14px;
+  color: #cbd5e1;
+}
+
+/* =========================
+   CONTAINER
+========================= */
+.container {
+  max-width: 1000px;
+  margin: 30px auto;
+  padding: 0 15px;
+}
+
+/* =========================
+   CARD
+========================= */
+.card {
+  background: #ffffff;
+  border-radius: 8px;
+  padding: 20px;
+  margin-bottom: 20px;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.08);
+}
+
+.card h2 {
+  font-size: 20px;
+  margin-bottom: 15px;
+  color: #111827;
+}
+
+/* =========================
+   TOOL LIST
+========================= */
+.tool-list {
+  list-style: none;
+}
+
+.tool-list li {
+  margin-bottom: 10px;
+}
+
+.tool-list a {
+  display: block;
+  padding: 12px 14px;
+  background: #f1f5f9;
+  border-radius: 6px;
+  text-decoration: none;
+  color: #111827;
+  font-weight: bold;
+  transition: background 0.2s ease;
+}
+
+.tool-list a:hover {
+  background: #2563eb;
+  color: #ffffff;
+}
+
+/* =========================
+   TOOL PAGE
+========================= */
+.tool-box {
+  max-width: 650px;
+  margin: 30px auto;
+  background: #ffffff;
+  padding: 25px;
+  border-radius: 8px;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.08);
+}
+
+.tool-box h1 {
+  font-size: 24px;
+  margin-bottom: 10px;
+}
+
+.tool-box p {
+  margin-bottom: 15px;
+  color: #444;
+}
+
+/* =========================
+   RESULT BOX
+========================= */
+.result {
+  font-size: 22px;
+  font-weight: bold;
+  background: #e5e7eb;
+  padding: 14px;
+  border-radius: 6px;
+  text-align: center;
+  color: #111827;
+}
+
+/* =========================
+   FOOTER
+========================= */
+footer {
+  text-align: center;
+  font-size: 13px;
+  color: #6b7280;
+  margin: 40px 0 20px;
+}
+
+/* =========================
+   MOBILE
+========================= */
+@media (max-width: 600px) {
+  header h1 {
+    font-size: 22px;
+  }
+
+  .tool-box {
+    margin: 20px 10px;
+    padding: 20px;
+  }
+}
